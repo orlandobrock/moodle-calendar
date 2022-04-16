@@ -1,0 +1,25 @@
+{
+    "url": "https://moodle.gravatai.ifsul.edu.br/lib/ajax/service.php",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:96.0) Gecko/20100101 Firefox/96.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Content-Type": "application/json",
+        "X-Requested-With": "XMLHttpRequest",
+        "Connection": "keep-alive"
+        },
+    "body": [{
+        "index": 0,
+        "methodname": "core_calendar_get_calendar_monthly_view",
+        "args": {
+            "year": 2022,
+            "month": 2,
+            "courseid": 1,
+            "categoryid": 0,
+            "includenavigation": true,
+            "mini": true,
+            "day": 1
+        }
+    }]
+}
